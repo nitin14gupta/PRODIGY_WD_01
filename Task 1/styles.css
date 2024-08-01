@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    border-radius: 0%;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    font-size: 16px;
+    background-color: #333;
+}
+
+#navbar {
+    background-color: #333;
+    height: 72px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 0.1rem;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-left: 60px;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 600px;
+    height: 72px;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    width: 90px;
+    z-index: 1;
+}
+
+ul li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #008B8B;
+    padding: 0px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+ul li a .icons {
+    position: relative;
+    display: block;
+    font-size: 1.5em;
+    color: aqua;
+}
+
+ul li a .text:hover {
+    color: aqua
+}
+
+ul li a .icons:hover {
+    color: whitesmoke;
+}
+
+ul li:hover {
+    background: linear-gradient(45deg, rgba(211, 49, 49, 0.459), red);
+    padding: 3px;
+}
+
+nav button {
+    background-color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 1rem;
+    font-weight: 900;
+    margin-right: 60px;
+}
+
+header,
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #f4f4f4;
+}
+
+#about,
+#services,
+#contact {
+    background-color: #e4e4e4;
+    margin-top: 20px;
+}
